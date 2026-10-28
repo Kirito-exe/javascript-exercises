@@ -1,4 +1,4 @@
-const totalIntegers = function (obj, intarr = []) {
+const totalIntegers = function (obj) {
   if (!Array.isArray(obj) && !isPureObject(obj)) {
     return;
   }
